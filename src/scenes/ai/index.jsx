@@ -16,7 +16,7 @@ function Ai() {
     setAnswer("Loading the answer... \n It might take up to 5 seconds");
     try {
       const response = await axios({
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${
                 process.env.REACT_APP_GENERATIVE_LANGUAGE_CLIENT}`,
         method: "post",
         data: {
