@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 import 'remixicon/fonts/remixicon.css';
 
 function Ai() {
+  
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [generatingAnswer, setGeneratingAnswer] = useState(false);
